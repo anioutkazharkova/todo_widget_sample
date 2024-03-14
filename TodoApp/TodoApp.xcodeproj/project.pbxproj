@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D5C84CC2BA3628800AEA279 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5C84CB2BA3628800AEA279 /* ListViewModel.swift */; };
 		1DC2308E2B9B5C8A001568CF /* TodoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC2308D2B9B5C8A001568CF /* TodoAppApp.swift */; };
 		1DC230942B9B5C8C001568CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC230932B9B5C8C001568CF /* Assets.xcassets */; };
 		1DC230972B9B5C8C001568CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC230962B9B5C8C001568CF /* Preview Assets.xcassets */; };
@@ -55,6 +56,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1D5C84CB2BA3628800AEA279 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		1DC2308A2B9B5C8A001568CF /* TodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC2308D2B9B5C8A001568CF /* TodoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppApp.swift; sourceTree = "<group>"; };
 		1DC230932B9B5C8C001568CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 			children = (
 				1DC230A12B9B5CA9001568CF /* ListContentView.swift */,
 				1DC230A22B9B5CA9001568CF /* SwiftModelDataActor.swift */,
+				1D5C84CB2BA3628800AEA279 /* ListViewModel.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 			files = (
 				1DC230A62B9B5CA9001568CF /* ListContentView.swift in Sources */,
 				1DC230A72B9B5CA9001568CF /* SwiftModelDataActor.swift in Sources */,
+				1D5C84CC2BA3628800AEA279 /* ListViewModel.swift in Sources */,
 				1DC230A52B9B5CA9001568CF /* TodoManager.swift in Sources */,
 				1DC230A92B9B5CC6001568CF /* Item.swift in Sources */,
 				1DC230A42B9B5CA9001568CF /* TodoItem.swift in Sources */,
